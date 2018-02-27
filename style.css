@@ -1,0 +1,83 @@
+body{
+    background-attachment: fixed;
+    margin: 30px 50px;
+    line-height: 1.4;
+    background-image: url(../images/background.jpeg);
+    background-repeat: no repeat;
+    color: #e2d6de
+}
+.wrapper{
+    display: grid;
+    grid-gap: 20px;
+}
+.main-nav ul{
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main-nav a {
+    background: #706b70;
+    display: block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: rgb(31, 24, 24);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow: #a694a7;
+}
+.showcase h1{
+    font-size: 4rem;
+    font-style: italic;
+    margin-bottom: 0;
+    color: rgb(204, 152, 75);
+}
+
+.showcase p{
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-top: 0;
+    color: rgb(204, 152, 75);
+}
+
+.box {
+    background: rgb(204, 152, 75);
+    text-align: left;
+    padding: 1.5rem 2 rem;
+    margin: 10px;
+}
+.box h2{
+    text-align: left;
+    padding: 1.5rem 2 rem;
+    font-style: italic;
+    margin: 10px;
+    font-size: 40px;
+}
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+}
+
+.my-list li{
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+
+.info{
+    
+    box-shadow: rgb(185, 174, 174);
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+.h2{
+    font-style: italic;
+}
+
+.my-list li{
+
+}
